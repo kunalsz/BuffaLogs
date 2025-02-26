@@ -1,9 +1,10 @@
+import json
+import os
+
+from django.conf import settings
 from impossible_travel.alerting.base_alerting import BaseAlerting
 from impossible_travel.alerting.dummy_alerting import DummyAlerting
 from impossible_travel.alerting.email_alerting import EmailAlerting
-import os
-import json
-from django.conf import settings
 
 
 class AlertFactory:
